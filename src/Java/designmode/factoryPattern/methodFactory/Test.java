@@ -3,8 +3,8 @@ package Java.designmode.factoryPattern.methodFactory;
 /**
  * Created by xieyuhui on 2018/3/29.
  * 工厂方法模式
- * 每个产品类都有一个对应的能够生产自己的工厂类。
- * 解决了简单工厂模式的确定，但是类会成倍的增加。
+ * 每个具体工厂类对应一个具体产品类。
+ * 解决了简单工厂模式的缺点，但是工厂类会成倍的增加。
  *
  */
 public class Test {
