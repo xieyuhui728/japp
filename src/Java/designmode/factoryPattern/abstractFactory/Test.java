@@ -7,6 +7,7 @@ package Java.designmode.factoryPattern.abstractFactory;
  * 只需要新增IOS对应的具体产品类和具体工厂类即可，符合开闭原则，但是如果要增加
  * 一个产品结构的话，比如现在要新增一个XXXController 某某控制类的话，就需要
  * 很大的改动，不符合开闭原则，这也是抽象工厂模式的缺点。
+ * 抽象工厂模式适合产品接口稳定，不会增加也不会减少的情况。
  *
  */
 public class Test {
